@@ -1,7 +1,7 @@
 {
-    "name": "sawfly/yii-dump",
+    "name": "sawfly/dump-from-symfony",
     "description": "Convenient dumper from Symfony",
-    "keywords": ["package"],
+    "keywords": ["package", "dumper"],
     "license": "MIT",
     "type": "package",
     "authors": [
@@ -14,12 +14,11 @@
     ],
     "require": {
         "php": ">=5.5.9",
-        "yiisoft/yii2": "*",
         "symfony/var-dumper": "2.8.*|3.0.*"
     },
     "autoload": {
-        "files": [ "sawfly/yii-dump/src/sd.php" ],
-        "psr-4": { "Sawfly\\YiiDump\\": "" }
+        "files": [ "sawfly/dump-from-symfony/src/sd.php" ],
+        "psr-4": { "Sawfly\\DumpFromSymfony\\": "" }
     },
     "minimum-stability": "dev"
 }
