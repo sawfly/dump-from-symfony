@@ -3,7 +3,7 @@
 require 'Dumper.php';
 require 'HtmlDumper.php';
 
-use Sawfly\YiiDump\Dumper;
+use Sawfly\DumpFromSymfony\Dumper;
 
 if (!function_exists('sd')) {
     /**
