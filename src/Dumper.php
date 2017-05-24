@@ -1,6 +1,6 @@
 <?php
 
-namespace Sawfly\YiiDump;
+namespace Sawfly\DumpFromSymfony;
 
 use Symfony\Component\VarDumper\Cloner\VarCloner;
 use Symfony\Component\VarDumper\Dumper\CliDumper;
